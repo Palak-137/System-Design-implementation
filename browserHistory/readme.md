@@ -6,7 +6,7 @@ This can be useful for web developers who want to provide a custom user experien
 #### How it works
 
 The browserHistory function has been created with initialization of array and index variables.
-On visiting any page it will put it back in to th array and incras the size
+On visiting any page it will put it back in to th array and increase the size
 of the index. If the index is -1 ie its a blank page. 
 
 other ways to implement it
@@ -16,3 +16,5 @@ the function stores the URL in an array. The function then uses the pushState me
 with the URL and a custom state object containing additional information, such as the title of the page.
 When the user clicks on the back or forward button, the function uses the popstate event to get the previous or next state from the browser history. 
 It then updates the URL and other information on the page accordingly.
+
+You can read more about the history function using the [link](https://developer.mozilla.org/en-US/docs/Web/API/History) 
